@@ -126,6 +126,22 @@
             margin-left: 0;
         }
     }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .table-striped tbody tr:hover {
+      background-color: rgba(0, 0, 0, 0.075);
+    }
+
+    @media (max-width: 575.98px) {
+      .table-responsive.small {
+        overflow-x: auto;
+        display: block;
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -173,6 +189,7 @@
     </div>
     <div class="container-fluid" id="root">
    
+
     </div>
   </div>
 
